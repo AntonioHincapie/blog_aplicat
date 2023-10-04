@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# blog_aplication
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This app is design to work with the [blog_API](https://github.com/AntonioHincapie/blog_api), this repo contains a simple blog app that allows you create users also create, update and delete posts and comments for the posts, connecteed to a API running in your localhost at the same time.
 
-## Available Scripts
+## Back-end Repo
 
-In the project directory, you can run:
+- [Link to API repo](https://github.com/AntonioHincapie/blog_api)
 
-### `npm start`
+## Built With
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React.js
+- Ant design
+- Axios
+- PlayWright
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Prerequisites
 
-### `npm test`
+- NodeJS
+- NPM
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Setup
 
-### `npm run build`
+- Clone repository.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- `npm install`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- `npm init playwright@latest`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Run app
 
-### `npm run eject`
+- `npm run start` will run the app on the `localhost:3001` because the API is running at the same time in the `localhost:3000`.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Run test
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- `npx playwright test`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Author
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 👤 **Marco Antonio Hincapié Montes**
 
-## Learn More
+- GitHub: [@AntonioHincapie](https://github.com/AntonioHincapie)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Twitter: [@MarcoHincapie](https://twitter.com/MarcoHincapie)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/antoniohincapie/)
 
-### Code Splitting
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributions, issues, and feature requests are welcome!
 
-### Analyzing the Bundle Size
+Feel free to check the [issues page](../../issues/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Show your support
 
-### Making a Progressive Web App
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Acknowledgments
 
-### Advanced Configuration
+- [How to create a REST API with Node.js and Express](https://blog.postman.com/how-to-create-a-rest-api-with-node-js-and-express/) from PostMan.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📝 License
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./LICENSE) licensed.
