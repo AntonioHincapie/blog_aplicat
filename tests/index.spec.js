@@ -15,6 +15,7 @@ test('login with valid credentials', async ({ page }) => {
   await page.fill('#email', loginParams.email);
   await page.fill('#password', loginParams.password);
   await page.click('button[type="submit"]');
+  console.log('LOGIN');
 
   await expect(page).toHaveURL('http://localhost:3001/');
 });
@@ -24,15 +25,18 @@ test('create a post', async ({ page }) => {
   await page.fill('#email', loginParams.email);
   await page.fill('#password', loginParams.password);
   await page.click('button[type="submit"]');
+  console.log('LOGIN');
 
   await page.click('text=Crear Post');
   await page.fill('#title', createPostParams.title);
   await page.fill('#content', createPostParams.content);
   await page.click('button[type="submit"]');
+  console.log('POST CREATED');
 
   await expect(page).toHaveURL('http://localhost:3001/create-post');
   const locator = page.locator('text=Post creado correctamente');
   await expect(locator).toContainText('Post creado correctamente');
+  console.log('POST CREATED CORRECTLY');
   console.log('END');
 });
 

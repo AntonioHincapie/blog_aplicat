@@ -32,7 +32,7 @@ This app is design to work with the [blog_API](https://github.com/AntonioHincapi
 
 ### Run test
 
-- `npx playwright test`
+- `npx playwright test` it's important to have the API server running before run the test.
 
 ## Author
 
