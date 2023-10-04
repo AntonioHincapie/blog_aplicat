@@ -197,6 +197,7 @@ export default function Post(params) {
           setVisible(false);
         }}
         okText="Editar"
+        okButtonProps={{ id: 'editPostSend' }}
         cancelText="Cancelar"
       >
         <Form
@@ -320,6 +321,7 @@ export default function Post(params) {
             Comentar
           </Button>
           <Button
+            id="editPost"
             type="primary"
             onClick={() => {
               setVisible(true);
@@ -331,6 +333,7 @@ export default function Post(params) {
             Editar
           </Button>
           <Button
+            id="deletePost"
             type="primary"
             danger
             onClick={handleDelete}
